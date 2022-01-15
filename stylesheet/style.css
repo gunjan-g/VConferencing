@@ -1,1 +1,214 @@
+body{
+    margin: 0px;
+}
 
+h1,
+h2 {
+  color: rgb(250, 249, 249);
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.container-fluid {
+  background-color: #02b5c8;
+  height: 45rem;
+  width: 100%;
+}
+
+.navbar {
+  margin: 0px;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+.nav-item {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.images {
+  opacity: 0.6;
+  position: relative;
+  width: 100%;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+  position: absolute;
+  height: 200px;
+  width: 250px;
+}
+
+.img-1 {
+  position: absolute;
+  top: 3rem;
+  left: 3%;
+}
+
+.img-2 {
+  position: absolute;
+  top: 3rem;
+  right: 3%;
+}
+
+.img-3 {
+  position: absolute;
+  top: 21rem;
+  left: 10%;
+}
+
+.img-4 {
+  position: absolute;
+  top: 21rem;
+  right: 10%;
+}
+
+.heading {
+  position: relative;
+  z-index: 1;
+  margin-top: 10rem;
+}
+
+.download{
+  position:relative;
+  z-index: 1;
+  margin-left: 35%;
+}
+
+/* --------- Icons -------- */
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  font-size: 15px;
+  text-align: center;
+  /* line-height: 5%; */
+  /* margin: 50px 0 50px; */
+  padding: 7% 15%; /* 0 200px; */
+}
+
+.feature-heading{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icons {
+  color: #8ae6f6;
+  margin: 5%;
+}
+
+.icons:hover {
+  color: #02b5c8;
+}
+
+#vcimg{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.meeting-img{
+  height: 25rem;
+  width: 40rem;
+}
+
+/* Testimonial */
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #02b5c8;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+
+#press {
+  text-align: center;
+  background-color: #02b5c8;
+  padding: 15px 0px 50px;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 0 20px;
+}
+
+/* Pricing Section */
+#pricing {
+  text-align: center;
+  padding: 50px 100px;
+}
+
+.pricing-col {
+  padding: 30px;
+}
+
+.pricing-heading{
+  color: black;
+}
+
+#meetings{
+  background-color: #02b5c8;
+  padding: 40px 20px;
+}
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  color: white;
+  background-color: #02b5c8;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.cta-heading-small{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: white;
+  padding: 7% 0%;
+}
+
+.icon {
+  padding: 1% 1%;
+}
+
+@media (max-width: 800px){
+  .download{
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 640px) {
+  .download{
+    margin-left: 20%;
+  }
+}  
