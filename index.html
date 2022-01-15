@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>VConferencing</title>
+
+    <!--Bootsrap 4.0 CDN-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@600&family=Montserrat:wght@700&family=Playfair+Display:wght@500&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Adding CSS stylesheet -->
+    <link rel="stylesheet" href="stylesheet/style.css" />
+
+    <!-- Font Awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="icon" href="https://user-images.githubusercontent.com/81305824/149616087-20164094-7581-4fc3-9266-212feeefe43f.png">
+
+    <!-- Javascript for Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">VConferencing</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#meetings" class="nav-link">Meetings</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="images">
+        <img src="images/vc1.jpg" class="img-1" style="border: outset" />
+        <img src="images/vc3.jpg" class="img-2" style="border: inset" />
+        <img src="images/vc2.jpg" class="img-3" style="border: inset" />
+        <img src="images/vc4.jpg" class="img-4" style="border: outset" />
+      </div>
+
+      <div class="heading">
+        <h1 style="font-weight: bold; font-size: 60px">
+          Video Calls <br />
+          With Far Ones
+        </h1>
+        <h2 style="font-size: 30px">Just One Click Away</h2>
+        <div class="download">
+          <button type="button" class="btn btn-dark btn-lg download-btn">
+            <i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-btn">
+            <i class="fab fa-google-play"></i> Download</button>
+        </div>
+      </div>
+    </div>
+
+    <section id="features">
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="icons fas fa-check-circle fa-5x"></i>
+          <!-- </span> -->
+          <h3 class="feature-heading">Easy to use.</h3>
+          <p style="color: gray;">So easy to use,<br> video calls just on a click</p>
+        </div>
+
+        <div class="col-lg-4">
+          <i class="icons fas fa-bullseye fa-5x"></i>
+          <!-- </span> -->
+          <h3 class="feature-heading">Elite Clients</h3>
+          <p style="color: gray;">We've all the awesome people connected here</p>
+        </div>
+
+        <div class="col-lg-4">
+          <i class="icons fas fa-heart fa-5x"></i>
+          <h3 class="feature-heading">Guaranteed to work.</h3>
+          <p style="color: gray;">Less Glitches and More Conversations<br> for a wonderful experience</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="vcimg">
+      <img class="meeting-img" src="https://user-images.githubusercontent.com/81305824/149575062-9e6bae83-3b84-4523-8876-98e3c0c5ffd4.png">
+    </section>
+
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-heading">
+              I love how VConferencing makes it super easy to work with teams.
+            </h2>
+            <br>
+            <img
+              class="testimonial-img"
+              src="https://randomuser.me/api/portraits/men/43.jpg"
+              alt="man-profile"
+            />
+            <em>Richard, New York</em>
+          </div>
+
+          <div class="carousel-item">
+            <h2 class="testimonial-heading">
+              Meeting with friends and family here seems so real.
+            </h2>
+            <br>
+            <img
+              class="testimonial-img"
+              src="https://randomuser.me/api/portraits/women/57.jpg"
+              alt="lady-profile"
+            />
+            <em>Beverly, Illinois</em>
+          </div>
+
+          <div class="carousel-item">
+            <h2 class="testimonial-heading">
+              A meeting link instantly ensures creativity doesn't get lost
+            </h2>
+            <br>
+            <img
+              class="testimonial-img"
+              src="https://randomuser.me/api/portraits/men/78.jpg"
+              alt="lady-profile"
+            />
+            <em>Jack, Singapore</em>
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="press">
+      <h4>Trusted by 2+ million people at companies like</h4>
+      <br />
+      <img
+        src="https://user-images.githubusercontent.com/81305824/149457949-079b8d2a-9c1e-4252-b256-3bbfeb75623d.png"
+        class="press-logo"
+      />
+      <img
+        src="https://user-images.githubusercontent.com/81305824/149458048-8894d7e1-10cd-4af2-afb5-1b5ff4432854.png"
+        class="press-logo"
+      />
+      <img
+        src="https://user-images.githubusercontent.com/81305824/149458090-c5257381-b22b-47e3-bfc5-8cc669d42af9.png"
+        class="press-logo"
+      />
+      <img
+        src="https://user-images.githubusercontent.com/81305824/149458131-9f7dbea4-7fd0-4eb0-9ade-5eeb41414768.png"
+        class="press-logo"
+      />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2 style="font-size: 3rem; color: black; font-family: 'Montserrat', sans-serif;">Choose a Plan</h2>
+      <p>Simple and affordable price plans for you</p>
+
+      <div class="row">
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Free</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-heading">For Free</h2>
+              <p>Host upto 100 participants</p>
+              <p>Unlimited 1:1 meetings</p>
+              <p>Unlimited Group meetings</p>
+              <button
+                type="button"
+                class="btn btn-lg btn-block btn-outline-info"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Pro</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-heading">$7/ month</h2>
+              <p>Unlimited Recording</p>
+              <p>Company Branding</p>
+              <p>Custom Subdomain</p>
+              <button type="button" class="btn btn-block btn-info btn-lg">
+                Try for free
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-col col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Business</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-heading">$10 / month</h2>
+              <p>Unlimited Shared Rooms</p>
+              <p>Priority Support</p>
+              <p>Early access to new features</p>
+              <button type="button" class="btn btn-block btn-info btn-lg">
+                Try for free
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="meetings">
+      <div class="row">
+
+        <div class="col-lg-6">
+      <div style="margin: 3rem 7rem;">
+        <h1>Connect to any meeting instantly</h1>
+        <div style="margin-left: 1rem;">
+          <div style="display: flex;">
+            <input type="text" placeholder="Enter meeting link"> &nbsp;
+            <input type="button" value="Connect">
+          </div>
+        <button type="button" style="margin: 3rem 0rem 0rem 1.3rem;" class="btn btn-outline-light btn-lg download-btn">Start Meeting Instantly</button>
+        </div>
+      </div>
+      </div>
+  
+      <div class="col-lg-6">
+      <div>
+        <img src="https://user-images.githubusercontent.com/81305824/149614773-7fabf7c9-5105-49f7-9c23-81c19976f5c9.png" class="title-image" alt="iphone-mockup">
+      </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="pricing">
+      <p> The easiest way to meet over video – with no app or software download required. Just choose your own personalized URL and meet in your browser, on mobile or desktop, with only one click.</p>
+
+      <div class="row">
+        <div class="pricing-col col-lg-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Customization</h3>
+            </div>
+            <div class="card-body">
+              <p>Personalize your meeting room with custom names, URLs, and branding.</p>
+              <img src="https://user-images.githubusercontent.com/81305824/149616638-4bbf4eed-0ee1-4052-8999-5e8cba1474d2.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-col col-lg-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Brainstorming</h3>
+            </div>
+            <div class="card-body">
+              <p>Host productive remote meetings with virtual whiteboards</p>
+              <img src="https://user-images.githubusercontent.com/81305824/149616663-99a3826d-1ae5-49a9-ba60-8f83c65e1095.png">
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="pricing-col col-lg-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Engagement</h3>
+              </div>
+              <div class="card-body">
+                <p>Keep meetings fun with live emoji reactions and our YouTube integration.</p>
+                <img src="https://user-images.githubusercontent.com/81305824/149616730-3df3bfdf-4921-4e45-be2f-35dfb4e1aa5f.png">
+              </div>
+            </div>
+          </div>
+  
+          <div class="pricing-col col-lg-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Breakouts</h3>
+              </div>
+              <div class="card-body">
+                <p>Run efficient classes, events, and workshops with Breakout Groups.</p>
+                <img style="height: 10.3rem;" src="https://user-images.githubusercontent.com/81305824/149616796-ca6a8ffb-0aa8-4ac0-b08c-d1d27737cc7b.png">
+              </div>
+            </div>
+          </div>
+          </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3 class="cta-heading">Video Calls Made Easy</h3>
+      <h4 class="cta-heading-small">Connect Now</h4>
+      <button type="button" class="btn btn-dark btn-lg download-btn">
+        <i class="fab fa-apple"></i> Download
+      </button>
+      <button type="button" class="btn btn-outline-light btn-lg download-btn">
+        <i class="fab fa-google-play"></i> Download
+      </button>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="fab fa-twitter icon"></i>
+      <i class="fab fa-facebook-f icon"></i>
+      <i class="fab fa-instagram icon"></i>
+      <i class="fas fa-envelope icon"></i> <br>
+      <p>© Copyright 2022 VConferencing</p>
+    </footer>
+  </body>
+</html>
+
+<!--  -->
