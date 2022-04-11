@@ -168,6 +168,12 @@ h2 {
   padding: 40px 20px;
 }
 
+.meeting-box{
+    margin: 0 20%;
+    padding: 10px;
+    position: relative;
+}
+
 /* Call to Action */
 #cta {
   text-align: center;
