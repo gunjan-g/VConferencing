@@ -78,7 +78,7 @@ h2 {
 .download{
   position:relative;
   z-index: 1;
-  margin-left: 35%;
+  margin-left: 36%;
 }
 
 /* --------- Icons -------- */
@@ -211,4 +211,19 @@ h2 {
   .download{
     margin-left: 20%;
   }
-}  
+} 
+
+.meeting-box .meeting-placeholder{
+  margin: 7% 23%;
+  font-size: 18px;
+}
+
+.meeting-box .buttons .btn{
+  margin: 7% 30% 2%;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  /* border: 1px solid #007bff; */
+  transition: all 0.3s ease;
+}
